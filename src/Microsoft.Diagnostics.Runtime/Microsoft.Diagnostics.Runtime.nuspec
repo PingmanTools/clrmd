@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Microsoft.Diagnostics.Runtime.Latest</id>
+    <version>0.8.31.1</version>
+    <title>Microsoft.Diagnostics.Runtime.Latest</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>https://github.com/Microsoft/clrmd/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/PingmanTools/clrmd</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Microsoft.Diagnostics.Runtime.dll (nicknamed "CLR MD") is a process and crash dump introspection library. The official package is not kept up-to-date.</description>
+  </metadata>
+  <files>
+    <file src="bin\Release\Microsoft.Diagnostics.Runtime.dll" target="lib\net45\Microsoft.Diagnostics.Runtime.dll" />
+    <file src="bin\Release\Microsoft.Diagnostics.Runtime.xml" target="lib\net45\Microsoft.Diagnostics.Runtime.xml" />
+  </files>
+</package>
